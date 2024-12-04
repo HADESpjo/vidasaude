@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+#logo {
+    padding-top: 15px;
+    background-color: #fdfcea;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+#logo img {
+    height: 195px;
+    width: 590px;
+}
+
+.nada1 {
+    background-color: #fdfcea;
+    height: 50px;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+}
+
+.banner {
+    width: 100%;
+    height: 820px;
+    background-image: url(imagens/familha2.jpg);
+    background-position: 0 -70px;
+    background-size: cover;
+}
+
+.menu_do_topo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_do_topo a {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.671);
+    color: #00DFFC;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+}
+
+.pagina_atual {
+
+    text-decoration: underline solid;
+}
+
+.slogan {
+    margin: 250px 0 70px 80px;
+    font-family: "League Spartan";
+    font-size: 100px;
+    font-weight: 700px;
+    color: #38B6FF;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.671);
+}
+
+.nada2 {
+    background-color: #fdfcea;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.medicos {
+    padding-top: 15px;
+    background-color: #fdfcea;
+    height: 2000px;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo1 {
+font-family: "kanit";
+font-size: 96px;
+font-weight: 600px;
+padding: 30px;
+
+}
+#menu_medicos{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.cardio{
+    background-image: url(imagens/cardio.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 23%;
+    border-radius: 70px;
+    margin:70px ;
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.endo{
+    background-image: url(imagens/endo.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 23%;
+    border-radius: 70px;
+    margin:70px ;
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.nutro{
+    background-image: url(imagens/nutro.webp);
+    background-size: cover;
+    height: 600px;
+    width: 23%;
+    border-radius: 70px;
+    margin:70px ;
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.orto{
+    background-image: url(imagens/ortope.jpeg);
+    background-size: cover;
+    height: 600px;
+    width: 23%;
+    border-radius: 70px;
+    margin:70px ;
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.pedi{
+    background-image: url(imagens/pediatra.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 23%;
+    border-radius: 70px;
+    margin:70px ;
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.clin_geral{
+    background-image: url(imagens/clinico\ geral.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 23%;
+    border-radius: 70px;
+    margin:70px ;
+    border: 15px solid #38B6FF;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.tipo_medico{
+    font-family: "dosis";
+    font-weight: 800px;
+    font-size: 45px;
+    color: #00DFFC;
+    margin: 15px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.671); 
+}
